@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:screenOrientation="landscape"
+    android:visibility="visible">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="785dp"
+        android:layout_height="393dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/alien" />
+
+    <Button
+        android:id="@+id/gunButton"
+        android:layout_width="415dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#BFB71C1C"
+        android:fontFamily="@font/exo_extrabold"
+        android:onClick="shootGun"
+        android:text="Take a shot at it!"
+        android:textColor="#FFFFFF"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.645"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/runButton"
+        android:layout_width="415dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#BFB71C1C"
+        android:fontFamily="@font/exo_extrabold"
+        android:onClick="runAway"
+        android:text="RUN!!"
+        android:textColor="#FFFFFF"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.876"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/exo_extrabold"
+        android:text='You see a Shytoklath emerge from the wreckage, you have never seen one in person but you have heard the stories about how dangerous they are. The Shytoklath lets out a bloodcurdling shriek and begins to race towards you'
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

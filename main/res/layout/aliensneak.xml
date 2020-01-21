@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:screenOrientation="landscape"
+    android:visibility="visible">
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="785dp"
+        android:layout_height="393dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/alien" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/exo_extrabold"
+        android:text="When you peak around a chunk of the hull, you see a Shytoklath digging around, as if it was looking for something."
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/exo_extrabold"
+        android:text="You have heard about how deadly these things are."
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294" />
+
+    <Button
+    android:id="@+id/gunButton2"
+    android:layout_width="415dp"
+    android:layout_height="60dp"
+    android:backgroundTint="#BFB71C1C"
+    android:fontFamily="@font/exo_extrabold"
+    android:onClick="shootGun"
+    android:text="Shoot it"
+    android:textColor="#FFFFFF"
+    android:visibility="visible"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.645"
+    tools:visibility="visible" />
+
+    <Button
+    android:id="@+id/distractButton"
+    android:layout_width="415dp"
+    android:layout_height="60dp"
+    android:backgroundTint="#BFB71C1C"
+    android:fontFamily="@font/exo_extrabold"
+    android:onClick="distract"
+    android:text="Distract it"
+    android:textColor="#FFFFFF"
+    android:visibility="visible"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.876"
+    tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
